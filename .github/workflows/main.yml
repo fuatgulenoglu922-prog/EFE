@@ -1,0 +1,28 @@
+            - isim: APK'ları İndir
+  # Tam commit'e veya sürüme sabitleyebilirsiniz.
+  # uses: Kingsman44/gh-apkmirror-dl@1244a385c9c60de06ed1f7154bce670c7ab23e70
+  uses: Kingsman44/gh-apkmirror-dl@v2.0
+  ile:
+    # Kuruluş adı
+    org:
+    # Depo adı
+    depo:
+    # İndirilecek belirli sürüm (isteğe bağlı, belirtilmezse en son sürümü otomatik olarak algılar)
+    sürüm: # isteğe bağlı
+    # Sürümü eşleştirmek için kullanılan düzenli ifade deseni (örneğin, ".*-pixel" veya ".*-gphone")
+    sürümDesenini: # isteğe bağlı
+    # Otomatik algılama sırasında alfa/beta sürümlerini de dahil et
+    includePrerelease: # isteğe bağlı, varsayılan değer false
+    # APK yerine uygulama paketini (APKM) indirin
+    paket: # isteğe bağlı, varsayılan değer false
+    # İşlemci mimarisine göre filtrele (örneğin, arm64-v8a, armeabi-v7a). Belirtilmezse, ilk kullanılabilir olanı kullanır.
+    mimari: # isteğe bağlı
+    # Ekran DPI'sına göre filtrele (örneğin, nodpi, hdpi, xxhdpi). Belirtilmezse, ilk kullanılabilir olanı kullanır.
+    dpi: # isteğe bağlı
+    # Çıktı dosya adı. Şablon değişkenlerini destekler: ${version}, ${variant}, ${arch}, ${dpi}, ${minSdk}, ${signature}, ${date} (örneğin, Google-Dialer-${minSdk}-${arch}.apk)
+    dosya adı: # isteğe bağlı
+    # Mevcut dosyayı üzerine yaz
+    üzerine yaz: # isteğe bağlı, varsayılan değer true
+    # Hata ayıklama günlük kaydını etkinleştirin (etkinleştirmek için "true" olarak ayarlayın)
+    HATA AYIKLAMA: # isteğe bağlı, varsayılan değer false'tur
+          
